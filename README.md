@@ -17,3 +17,8 @@ This helps us take decisions on which IP to remove, install SSM, install ARC and
 The script csvParser.py also helps generate instance IDs not available in AWS any more from the list of AWS Config.
 
 This task was initially done by excel and using formulas, and would take approx 2 hours to complete. Now it takes 5 mins approx.
+
+
+update on 2023-08-20:
+The csvParserFunction.py does the same task with Functions implemented.
+Also output a new csv file for easier visualization
